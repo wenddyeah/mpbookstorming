@@ -3,21 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/chat_bg.xml" value="0.1295" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/filter_off.xml" value="0.1165" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/menu_bg.xml" value="0.1285" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/menu_selector_bg_color.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/menu_selector_color.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/new_chat.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/new_chat_bg.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/drawable/search_bar.xml" value="0.101" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/font/font.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/layout/chat_list.xml" value="0.1" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/layout/chatting.xml" value="0.2" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/layout/first.xml" value="0.24947916666666667" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/layout/my_library.xml" value="0.176" />
-        <entry key="..\:/MP/BOOKSTORMING_xml/app/src/main/res/menu/menu_main.xml" value="0.2" />
+        <entry key="..\:/Wendy Jo/Univ/22-2/Mobile programming/TP/template/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
       </map>
     </option>
   </component>
