@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CookAndroid/Project/mpbookstorming/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
         <entry key="..\:/CookAndroid/Project/mpbookstorming/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/CookAndroid/Project/mpbookstorming/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
         <entry key="..\:/Wendy Jo/Univ/22-2/Mobile programming/TP/template/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
       </map>
     </option>
