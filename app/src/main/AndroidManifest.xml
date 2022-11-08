@@ -28,6 +28,10 @@
             android:name="bookstorming.cookandroid.template.MainActivity"
             >
         </activity>
+        <activity
+            android:name="bookstorming.cookandroid.template.TabHostActivity"
+            >
+        </activity>
 
 
     </application>
