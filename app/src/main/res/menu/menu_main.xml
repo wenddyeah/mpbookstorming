@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/serch_menu"
+        android:enabled="true"
+        android:title="책 검색"
+        android:icon="@drawable/search_menu"/>
+    <item
+        android:id="@+id/usedStore_menu"
+        android:enabled="true"
+        android:title="중고책방"
+        android:icon="@drawable/usedstore_menu"/>
+
+    <item
+        android:id="@+id/myLibrary_menu"
+        android:enabled="true"
+        android:title="내 책방"
+        android:icon="@drawable/mylibrary_menu"/>
+
+    <item
+        android:id="@+id/chatting_menu"
+        android:enabled="true"
+        android:title="채팅"
+        android:icon="@drawable/search_menu"/>
+    <item
+        android:id="@+id/community_menu"
+        android:enabled="true"
+        android:title="커뮤니티"
+        android:icon="@drawable/community_menu"/>
+</menu>

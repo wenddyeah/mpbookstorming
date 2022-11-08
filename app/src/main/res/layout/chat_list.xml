@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="14dp">
+
+    <!--search bar-->
+    <LinearLayout
+        android:layout_width="364dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="24dp"
+        android:background="@drawable/search_and_filter">
+
+        <ImageView
+            android:src="@drawable/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"/>
+
+        <EditText
+            android:layout_width="315dp "
+            android:layout_height="30dp"
+            android:hint="내 채팅 검색하기"
+            android:textColorHint="#555"
+            android:textSize="13dp"
+            android:background="@null"
+            android:singleLine="true"/>
+
+
+    </LinearLayout>
+
+<!--    채팅목록-->
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="594dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginHorizontal="24dp">
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="562dp"
+            android:orientation="vertical">
+
+<!--            한 개의 채팅방-->
+            <RelativeLayout
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:background="@drawable/chat_bg"
+                android:clickable="true" >
+<!--                프로필 사진-->
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#eee"
+                    android:src="@drawable/profile_defalt" />
+<!--                채팅방 이름-->
+                <TextView
+                    android:id="@+id/chatName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/profileImg"
+                    android:layout_toRightOf="@+id/profileImg"
+                    android:text="천 개의 파랑 북스터디"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"/>
+<!--                채팅방 인원수-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/chatName"
+                    android:layout_toRightOf="@+id/chatName"
+                    android:text="1"
+                    android:textColor="#888"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="3dp"/>
+<!--                마지막채팅내용-->
+                <TextView
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chatName"
+                    android:layout_alignLeft="@+id/chatName"
+                    android:text="천개의 파랑 너무 재미있는 것 같아요. 이 외에도 천선란 작가님의"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#444"
+                    android:textSize="13dp"
+                    android:layout_marginTop="3dp"/>
+<!--                마지막 채팅 일자-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="1일 전"
+                    android:textColor="#555"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5dp"/>
+<!--                새로운 채팅 수-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/new_chat_bg"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <!--    하단 메뉴바-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#F5F5F5"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_main" />
+
+
+</LinearLayout>
