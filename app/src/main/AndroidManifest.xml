@@ -32,6 +32,10 @@
             android:name="bookstorming.cookandroid.template.TabHostActivity"
             >
         </activity>
+        <activity
+            android:name="bookstorming.cookandroid.template.RealReviewActivity"
+            >
+        </activity>
 
 
     </application>
